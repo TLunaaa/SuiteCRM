@@ -1,0 +1,175 @@
+<?php
+$listViewDefs ['Leads'] = 
+array (
+  'NAME' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_LIST_NAME',
+    'link' => true,
+    'orderBy' => 'name',
+    'default' => true,
+    'related_fields' => 
+    array (
+      0 => 'first_name',
+      1 => 'last_name',
+      2 => 'salutation',
+    ),
+  ),
+  'STATUS' => 
+  array (
+    'width' => '7%',
+    'label' => 'LBL_LIST_STATUS',
+    'default' => true,
+  ),
+  'EMAIL1' => 
+  array (
+    'width' => '16%',
+    'label' => 'LBL_LIST_EMAIL_ADDRESS',
+    'sortable' => false,
+    'customCode' => '{$EMAIL1_LINK}',
+    'default' => true,
+  ),
+  'PHONE_MOBILE' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_MOBILE_PHONE',
+    'default' => true,
+  ),
+  'ESPECIALIDAD_C' => 
+  array (
+    'type' => 'relate',
+    'default' => true,
+    'studio' => 'visible',
+    'label' => 'LBL_ESPECIALIDAD',
+    'id' => 'ESPE_ESPECIALIDADES_ID_C',
+    'link' => true,
+    'width' => '10%',
+  ),
+  'PROVINCIAPRESTACION_C' => 
+  array (
+    'type' => 'relate',
+    'default' => true,
+    'studio' => 'visible',
+    'label' => 'LBL_PROVINCIAPRESTACION',
+    'id' => 'PROV_PROVINCIAS_ID1_C',
+    'link' => true,
+    'width' => '10%',
+  ),
+  'LOCALIDADPRESTACION_C' => 
+  array (
+    'type' => 'relate',
+    'default' => true,
+    'studio' => 'visible',
+    'label' => 'LBL_LOCALIDADPRESTACION',
+    'id' => 'LOC_LOCALIDADES_ID1_C',
+    'link' => true,
+    'width' => '10%',
+  ),
+  'REFERED_BY' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_REFERED_BY',
+    'default' => false,
+  ),
+  'PHONE_HOME' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_HOME_PHONE',
+    'default' => false,
+  ),
+  'TIPODOC_C' => 
+  array (
+    'type' => 'enum',
+    'default' => false,
+    'studio' => 'visible',
+    'label' => 'LBL_TIPODOC',
+    'width' => '10%',
+  ),
+  'NRODOC_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => false,
+    'label' => 'LBL_NRODOC',
+    'width' => '10%',
+  ),
+  'NROMATRICULA_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => false,
+    'label' => 'LBL_NROMATRICULA',
+    'width' => '10%',
+  ),
+  'PROVINCIA_C' => 
+  array (
+    'type' => 'relate',
+    'default' => false,
+    'studio' => 'visible',
+    'label' => 'LBL_PROVINCIA',
+    'id' => 'PROV_PROVINCIAS_ID_C',
+    'link' => true,
+    'width' => '10%',
+  ),
+  'LOCALIDAD_C' => 
+  array (
+    'type' => 'relate',
+    'default' => false,
+    'studio' => 'visible',
+    'label' => 'LBL_LOCALIDAD',
+    'id' => 'LOC_LOCALIDADES_ID_C',
+    'link' => true,
+    'width' => '10%',
+  ),
+  'CODPOSTAL_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => false,
+    'label' => 'LBL_CODPOSTAL',
+    'width' => '10%',
+  ),
+  'PAISPRESTACION_C' => 
+  array (
+    'type' => 'relate',
+    'default' => false,
+    'studio' => 'visible',
+    'label' => 'LBL_PAISPRESTACION',
+    'id' => 'PAIS_PAISES_ID1_C',
+    'link' => true,
+    'width' => '10%',
+  ),
+  'MUNICIPIO_C' => 
+  array (
+    'type' => 'relate',
+    'default' => false,
+    'studio' => 'visible',
+    'label' => 'LBL_MUNICIPIO',
+    'id' => 'MUNI_MUNICIPIOS_ID_C',
+    'link' => true,
+    'width' => '10%',
+  ),
+  'MUNICIPIOPRESTACION_C' => 
+  array (
+    'type' => 'relate',
+    'default' => false,
+    'studio' => 'visible',
+    'label' => 'LBL_MUNICIPIOPRESTACION',
+    'id' => 'MUNI_MUNICIPIOS_ID1_C',
+    'link' => true,
+    'width' => '10%',
+  ),
+  'PISO_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => false,
+    'label' => 'LBL_PISO',
+    'width' => '10%',
+  ),
+  'DEPTO_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => false,
+    'label' => 'LBL_DEPTO',
+    'width' => '10%',
+  ),
+);
+;
+?>

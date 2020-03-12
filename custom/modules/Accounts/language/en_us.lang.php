@@ -1,0 +1,25 @@
+<?php
+// created: 2019-08-24 17:32:15
+$mod_strings = array (
+  'LNK_NEW_ACCOUNT' => 'Create Facturación',
+  'LNK_ACCOUNT_LIST' => 'View Facturación',
+  'LNK_IMPORT_ACCOUNTS' => 'Import Facturación',
+  'MSG_SHOW_DUPLICATES' => 'The facturación record you are about to create might be a duplicate of an facturación record that already exists. Facturación records containing similar names are listed below.Click Save to continue creating this new facturación, or click Cancel to return to the module without creating the facturación.',
+  'LBL_SAVE_ACCOUNT' => 'Save Facturación',
+  'LBL_LIST_FORM_TITLE' => 'Facturación List',
+  'LBL_SEARCH_FORM_TITLE' => 'Facturación Search',
+  'LBL_MEMBER_OF' => 'Member of:',
+  'LBL_MEMBERS' => 'Members',
+  'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documentaciónación',
+  'LBL_CONTACTS' => 'Prestadores',
+  'LBL_OPPORTUNITY' => 'Especialidad por Prestador',
+  'LBL_LEADS' => 'Posibles Prestadores',
+  'LBL_CONTACTS_SUBPANEL_TITLE' => 'Prestadores',
+  'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Especialidades por Prestador',
+  'LBL_LEADS_SUBPANEL_TITLE' => 'Posibles Prestadores',
+  'LBL_MEMBER_ORG_SUBPANEL_TITLE' => 'Member Organizations',
+  'LBL_HOMEPAGE_TITLE' => 'My Facturación',
+  'LBL_PARENT_ACCOUNT_ID' => 'Parent Facturación ID',
+  'LBL_MODULE_NAME' => 'Facturación',
+  'LBL_PROSPECT_LIST' => 'Persona List',
+);
