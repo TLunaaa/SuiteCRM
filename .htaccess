@@ -12,7 +12,7 @@ RedirectMatch 403 /+files\.md5$
 <IfModule mod_rewrite.c>
     Options +SymLinksIfOwnerMatch
     RewriteEngine On
-    #RewriteBase /suitecrm
+    RewriteBase /suitecrm
     RewriteRule ^cache/jsLanguage/(.._..).js$ index.php?entryPoint=jslang&modulename=app_strings&lang=$1 [L,QSA]
     RewriteRule ^cache/jsLanguage/(\w*)/(.._..).js$ index.php?entryPoint=jslang&modulename=$1&lang=$2 [L,QSA]
 

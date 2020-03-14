@@ -68,7 +68,7 @@ $sugar_config = array (
     'min_cron_interval' => 30,
     'allowed_cron_users' => 
     array (
-      0 => 'daemon',
+      0 => 'www-data',
     ),
   ),
   'currency' => '',
@@ -229,8 +229,8 @@ $sugar_config = array (
   array (
     'dir_mode' => 1528,
     'file_mode' => 493,
-    'user' => 'daemon',
-    'group' => 'daemon',
+    'user' => 'www-data',
+    'group' => 'www-data',
   ),
   'default_subpanel_links' => false,
   'default_subpanel_tabs' => true,
@@ -300,7 +300,7 @@ $sugar_config = array (
   'google_auth_json' => '',
   'hide_subpanels' => false,
   'history_max_viewed' => 50,
-  'host_name' => 'linux',
+  'host_name' => 'localhost',
   'imap_test' => false,
   'import_max_execution_time' => 3600,
   'import_max_records_per_file' => 100,
@@ -400,7 +400,7 @@ $sugar_config = array (
     array (
       'enabled' => false,
       'host' => 'localhost',
-      'user' => 'daemon',
+      'user' => 'www-data',
       'pass' => '',
     ),
   ),
@@ -419,7 +419,7 @@ $sugar_config = array (
   'session_dir' => '',
   'showDetailData' => true,
   'showThemePicker' => true,
-  'site_url' => 'http://192.168.247.128:80/',
+  'site_url' => 'http://localhost:8000/suitecrm',
   'slow_query_time_msec' => '100',
   'stack_trace_errors' => false,
   'sugar_version' => '6.5.25',
