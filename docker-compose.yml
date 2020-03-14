@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+
+   suitecrm:
+     container_name: suitecrm
+     image: suitecrm:development
+     ports:
+       - "8000:80"
+     restart: always
+
