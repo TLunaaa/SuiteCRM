@@ -5,6 +5,7 @@ services:
    suitecrm:
      container_name: suitecrm
      image: suitecrm:development
+     volumes: /suitecrm:/var/www/html/
      ports:
        - "8000:80"
      restart: always
