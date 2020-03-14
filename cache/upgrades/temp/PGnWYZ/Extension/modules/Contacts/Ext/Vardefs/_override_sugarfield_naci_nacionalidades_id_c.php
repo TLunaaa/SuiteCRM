@@ -1,5 +1,0 @@
-<?php
- // created: 2019-08-23 14:55:25
-$dictionary['Contact']['fields']['naci_nacionalidades_id_c']['inline_edit']=1;
-
- ?>
