@@ -95,7 +95,7 @@ $sugar_config = array (
   'datef' => 'm/d/Y',
   'dbconfig' => 
   array (
-    'db_host_name' => '192.168.1.253:3306',
+    'db_host_name' => 'mysql:3306',
     'db_host_instance' => '',
     'db_user_name' => 'bn_suitecrm',
     'db_password' => 'suite1',
