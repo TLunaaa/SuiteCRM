@@ -4,10 +4,19 @@ services:
 
    suitecrm:
      container_name: suitecrm
+<<<<<<< Updated upstream
+     image: suitecrm:development
+     volumes: /suitecrm:/var/www/html/
+=======
      image: suitecrm:production
+<<<<<<< HEAD
      volumes: 
       - ./suitecrm:/var/www/html/suitecrm
+=======
+     volumes: /suitecrm:/var/www/html/
+>>>>>>> master
+>>>>>>> Stashed changes
      ports:
-       - "8080:80"
+       - "8000:80"
      restart: always
 
