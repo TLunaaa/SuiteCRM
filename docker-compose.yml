@@ -4,7 +4,6 @@ services:
 
    suitecrm:
      container_name: suitecrm
-<<<<<<< Updated upstream
      image: suitecrm:development
      volumes: /suitecrm:/var/www/html/
 =======
