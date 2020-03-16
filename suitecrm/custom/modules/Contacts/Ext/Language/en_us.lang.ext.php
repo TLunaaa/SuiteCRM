@@ -1,6 +1,10 @@
 <?php 
  //WARNING: The contents of this file are auto-generated
 
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_CONTACTS_COB_LUGARES_DE_COBERTURA_1_FROM_COB_LUGARES_DE_COBERTURA_TITLE'] = 'Lugares de Cobertura';
+
  
  // created: 2019-08-26 06:58:41
 $mod_strings['LBL_PROSPECT_LIST'] = 'Persona List';
@@ -23,9 +27,5 @@ $mod_strings['LBL_LIST_ACCOUNT_NAME'] = 'Facturación Name';
 $mod_strings['LBL_DOCUMENTS_SUBPANEL_TITLE'] = 'Documentaciónación';
 
 
-
-
-//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
-$mod_strings['LBL_CONTACTS_COB_LUGARES_DE_COBERTURA_1_FROM_COB_LUGARES_DE_COBERTURA_TITLE'] = 'Lugares de Cobertura';
 
 ?>

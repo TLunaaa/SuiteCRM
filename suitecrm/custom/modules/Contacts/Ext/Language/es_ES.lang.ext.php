@@ -1,10 +1,6 @@
 <?php 
  //WARNING: The contents of this file are auto-generated
 
-
-//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
-$mod_strings['LBL_CONTACTS_COB_LUGARES_DE_COBERTURA_1_FROM_COB_LUGARES_DE_COBERTURA_TITLE'] = 'Lugares de Cobertura';
-
  
  // created: 2019-08-26 06:58:41
 $mod_strings['LBL_LEADS'] = 'Leads';
@@ -52,5 +48,9 @@ $mod_strings['LBL_EDITVIEW_PANEL3'] = 'Datos sobre la cancelación';
 $mod_strings['LBL_CONTACTS_OPPORTUNITIES_1_FROM_OPPORTUNITIES_TITLE'] = 'Especialidades Habilitadas';
 
 
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_CONTACTS_COB_LUGARES_DE_COBERTURA_1_FROM_COB_LUGARES_DE_COBERTURA_TITLE'] = 'Lugares de Cobertura';
 
 ?>
